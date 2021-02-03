@@ -11,7 +11,7 @@ class ProgresBar extends React.Component {
      }
 
 next = () => {
-    this.setState(this.state.indicator < 800 ? {indicator: this.state.indicator + 200, width: this.state.width + 200} : {indicator: this.state.indicator + 0, width: this.state.width + 0} )
+    this.setState(this.state.indicator < 800 ? {indicator: this.state.indicator + 200, width: this.state.width + 200} : null )
 }
 previous = () => {
     this.setState(this.state.indicator <=5 ? null :  {indicator: this.state.indicator - 200, width: this.state.width - 200})
@@ -22,7 +22,7 @@ render () {
 return (
     <div className="NavComponent">
         <div className="progresBar" style={{width:this.state.width_progresBar}}>
-            <img id="flame" Indicator src={this.state.flame} alt="flame indicator" style={{left: this.state.indicator}} />
+            <img id="flame" src={this.state.flame} alt="flame indicator" style={{left: this.state.indicator}} />
             <div className="progresBarIndicator1" style={{width:this.state.width}}></div>
         </div>
         <div className="ButtonPad">

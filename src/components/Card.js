@@ -1,18 +1,16 @@
+import React from "react";
+import './Card.css'
 
-const array =[{
-    image:""
-    quote: ""
-    className: top-left
-    compteur: 0
+class Card extends React.Component {
+  render() {
+    return (
+      <div className="card">
+        <p>{this.props.value}</p>
+        <p>
+          Empreinte environnementale : {this.props.result}
+        </p>
+      </div>
+    );
+  }
 }
-]
-class Cards extends React.Component {
-    render(){
-        return(
-            <img></img>
-            <quote></quote>
-            <button>En savoir plus</button>
-            <button>-></button>
-        )
-    }
-}
+ export default Card

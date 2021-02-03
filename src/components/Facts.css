@@ -1,59 +1,58 @@
-
 div.bubble {
-	position: relative;
-	width: 300px;
-	text-align: center;
-	line-height: 1.4em;
-	margin: 4rem auto;
-	background-color: #fff;
-	border: 8px solid #333;
-	border-radius: 30px;
-	font-family: sans-serif;
-	padding: 20px;
-	font-size: large;
-	display: flex;
+  position: relative;
+  text-align: center;
+  line-height: 1.4em;
+  margin: 4rem auto;
+  background-color: #fff;
+  border: 8px solid #333;
+  border-radius: 30px;
+  font-family: sans-serif;
+  padding: 20px;
+  font-size: large;
 }
-
-
 
 .bubble p {
-	text-align: left;
+  text-align: left;
 }
 
-
 div.thought {
-	width: 500px;
-	border-radius: 200px;
-	padding: 30px;	
+  border-radius: 200px;
+  padding: 30px;
 }
 
 div.bubble:before,
 div.bubble:after {
-	content: ' ';
-	position: absolute;
-	width: 0;
-	height: 0;
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
 }
 
 div.thought:before,
 div.thought:after {
-	left: 10px;
-	bottom: -30px;
-	width: 40px;
-	height: 40px;
-	background-color: #fff;
-	border: 8px solid #333;
-	-webkit-border-radius: 28px;
-	-moz-border-radius: 28px;
-	border-radius: 28px;
+  left: 10px;
+  bottom: -30px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 8px solid #333;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
 }
 
 div.thought:after {
-	width: 20px;
-	height: 20px;
-	left: 5px;
-	bottom: -40px;
-	-webkit-border-radius: 18px;
-	-moz-border-radius: 18px;
-	border-radius: 18px;
+  width: 20px;
+  height: 20px;
+  left: 5px;
+  bottom: -40px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
 }
+
+@media (min-width: 600px) {
+	div .bubble {
+	  display: flex;
+	}
+  }

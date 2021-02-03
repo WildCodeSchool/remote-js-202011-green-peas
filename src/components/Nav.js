@@ -10,16 +10,16 @@ class Nav extends React.Component {
             <a href="index.html">Accueil</a>
           </li>
           <li>
-            <a href="#">Jeux</a>
+            <a href="index.html">Jeux</a>
           </li>
           <li>
-            <a href="#">Aliments</a>
+            <a href="index.html">Aliments</a>
           </li>
           <li>
-            <a href="#">Consommer mieux</a>
+            <a href="index.html">Consommer mieux</a>
           </li>
           <li>
-            <a href="#">A propos</a>
+            <a href="index.html">A propos</a>
           </li>
         </ul>
       </nav>

@@ -7,7 +7,6 @@ import BounceIntro from './components/BounceIntro';
 import ProgresBar from './components/ProgresBar';
 import Timer from './components/Timer';
 import './App.css';
-import FactsList from './components/FactsList';
 
 class App extends React.Component {
   render() {

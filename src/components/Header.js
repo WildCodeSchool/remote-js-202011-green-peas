@@ -4,7 +4,7 @@ import Identity from "./Identity";
 import BurgerMenu from "./BurgerMenu";
 
 class Header extends React.Component {
-  swipeMenu = () => {
+  swipeMenu() {
     const mainMenu = document.querySelector("#menu");
     const burgerMenu = document.querySelector("#menu-burger");
     document.addEventListener("click", function (event) {
@@ -18,13 +18,12 @@ class Header extends React.Component {
     burgerMenu.addEventListener(
       clickedEvent,
       function (event) {
-        console.log(clickedEvent);
         if (!this.getAttribute("class")) {
           this.setAttribute("class", "clicked");
         } else {
           this.removeAttribute("class");
         }
-        if (mainMenu.getAttribute("class") != "visible") {
+        if (mainMenu.getAttribute("class") !== "visible") {
           mainMenu.setAttribute("class", "visible");
         } else {
           mainMenu.setAttribute("class", "invisible");
