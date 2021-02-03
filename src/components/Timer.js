@@ -1,37 +1,32 @@
 import React from 'react'
-import bouton from './Bouton'
 import './timer.css'
+
+let intervalId = null
 
 class Timer extends React.Component {
 
+    state = {
+        counter: 30
+    }
 timer = () =>{
-let counter = 30
-let intervalId = null
-let timer = document.getElementById("bip")
-let button = document.getElementById("button")
-button.disabled = true
-intervalId = setInterval(bip, 1000)
+    this.setState({counter: 30})	
 
-function bip() {
-    counter--
-    if(counter === 0) finish()
-    else {	
-        timer.innerHTML = counter + " secondes restantes"
+intervalId = setInterval(this.bip, 1000)
+}
+bip = () => {
+    this.setState({counter: - 1 + this.state.counter})
+    if(this.state.counter === 0){ 
+        this.finish()
     }
   }	
-    function finish() {
+finish = () => {
       clearInterval(intervalId)
-      timer.innerHTML = "TERMINE!"
-      button.disabled = false
-      counter = 30	
   }
-}
-
     render(){
     return(
         <div>
             <button className="button" onClick={this.timer} id="button">Start Game</button>
-            <div id="bip" className="compteur"></div>
+            <div id="bip" className="compteur">{this.state.counter === 0 ? "TERMINE !" : this.state.counter + " secondes restantes."}</div>
         </div>
         )
     }
