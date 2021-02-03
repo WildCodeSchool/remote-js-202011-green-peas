@@ -13,7 +13,7 @@ class Nav extends React.Component {
             <a href="#">Jeux</a>
           </li>
           <li>
-            <a href="#">aliment</a>
+            <a href="#">Aliments</a>
           </li>
           <li>
             <a href="#">Consommer mieux</a>

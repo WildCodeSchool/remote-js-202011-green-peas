@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     height : 400px;
-    width : 80%;
+    width : 800px;
     text-align: center;
 }
 
@@ -12,9 +12,10 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    text-align: right;
     top : 150px;
     height: 10px;
-    width: 80%;
+    width: 800px;
     background: #38B858;
     border-radius: 10px;
 }
@@ -24,11 +25,12 @@
     position: absolute;
     margin-left: auto;
     margin-right: auto;
+    transition: width 4s;
     margin: 0px;
     padding: 0px;
     height: 10px;
     width: 10px;
-    background: linear-gradient(to right, black, red);
+    background: linear-gradient(to right,white, grey,rgb(94, 93, 93), black, red);
     border: 5px;
     border-radius: 10px;
 }
@@ -38,7 +40,8 @@
     position: absolute;
     height: 40px;
     width: 40px;
-    transform: translateY(-75%) translateX(-40%) 
+    transition: 4s;
+    transform: translateY(-100%) translateX(-55%) 
 }
 
 .ButtonPad {
@@ -53,16 +56,41 @@
     width: 300px;
 }
 
-.ButtonTest {
+.Button_return {
     display: flex;
     position: relative;
-    background-color:rgb(136, 151, 168);
     height: 50px;
     width: 100px;
     border-radius: 5px;
-    color: white;
-    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    padding: 0px;
+    font-size: 40px;
+    color: #38B858;
     margin-left: auto;
     margin-right: auto;
+    border: none;
 }
 
+.Button_forward {
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    padding: 0px;
+    font-size: 40px;
+    color: #38B858;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+#bomb_progresBar {
+    display: flex;
+    position: absolute;
+    height: 400;
+    width: 60;
+}
