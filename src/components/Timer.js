@@ -12,7 +12,7 @@ class Timer extends React.Component {
             timer = () =>{
                 this.setState({counter: 30})
                 document.getElementById('button').disabled = true
-                intervalId = setInterval(this.bip, 1000)
+                setInterval(this.bip, 1000)
             }
             bip = () => {
                 this.setState({counter:this.state.counter - 1})
@@ -21,7 +21,6 @@ class Timer extends React.Component {
                 }
             }	
             finish = () => {
-                clearInterval(intervalId)
                 document.getElementById('button').disabled = false
             }
                 render(){
