@@ -1,10 +1,16 @@
 .footer {
-  /* position: fixed; */
+  position: fixed;
   bottom: -1px;
   background-color: white;
   max-width: 100%;
   box-shadow: rgb(231, 231, 231) 10px -5px 10px;
   width: 100%;
+  transition: position .2s ease-in;
+  margin-top: 50px;
+}
+
+.footer.not-fixed {
+  position: relative;
 }
 
 input {

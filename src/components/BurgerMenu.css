@@ -4,6 +4,7 @@
 /* Menu burger */
 #menu-burger {
   cursor: pointer;
+  z-index: 6666;
 }
 #menu-burger .bar1,
 #menu-burger .bar2,

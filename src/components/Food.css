@@ -1,0 +1,38 @@
+.food {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.food ul {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#page-numbers {
+  list-style: none;
+  display: flex;
+}
+
+#page-numbers > li {
+  color: blue;
+  user-select: none;
+  cursor: pointer;
+}
+.block {
+  width: 100%;
+  display: block;
+}
+.current {
+  text-decoration: underline;
+  background-color: lightgreen;
+}
+.hidden {
+  display: none;
+}
+.food li {
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px;
+}

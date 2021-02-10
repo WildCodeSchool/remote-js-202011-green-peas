@@ -4,5 +4,9 @@
 }
 
 .intro {
-    width: 50%;
+    width: 40%;
+    margin: 100px auto;
+    border-radius: 10px;
+    background: #c4c4c436;
+    padding-bottom: 45px;
 }

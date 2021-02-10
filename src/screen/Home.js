@@ -1,21 +1,28 @@
 import React from 'react'
-import Bouton from '../components/Bouton'
+import { Link } from "react-router-dom";
+import '../components/bouton.css'
 import '../screen/typo.css';
 import '../screen/screen.css';
 import earth from '../data/images/earth-2.svg'
-import FactsList from "../components/FactsList"
+import Select from '../components/Select';
+
 
 const Home = () => {
     return(
         <div id="Page">
                 <section className='intro'>
+                <Select />
                     <h1>Sauve la planète</h1>
                     <figure className="figure">
-                        <img src={earth} className="figure-img img-fluid rounded" alt="" />
-                        <figcaption className="figure-caption text-xs-right"></figcaption>
+                        <img src={earth} alt="earth" />
+                        <figcaption></figcaption>
                     </figure>
-                    <FactsList />
-                    <Bouton screen="jkrejkre.html" texte="Sauve la planète" />
+                    <p>
+                        Sauve la planète et découvre ton pois &#128994; environnemental
+                    </p>
+                    
+                    
+                    <Link to="/game" className="bouton">Sauve la planète</Link>
                 </section>
         </div>
     )
