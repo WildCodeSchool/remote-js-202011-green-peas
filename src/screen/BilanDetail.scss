@@ -2,3 +2,44 @@
     display: flex;
     flex-direction: row;
 }
+
+.imgicon {
+    width: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nbjours {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(144, 17, 17);
+}
+
+.scoreVulg {
+    height: 8px;
+    border-radius: 10px;
+}
+
+.scoreVulgEchelle {
+    height: 10px;
+    background: linear-gradient(to right,rgb(22, 192, 31),orange,  red);
+    border-radius: 10px;
+    width: 320px;
+}
+
+.Score {
+    border-left: 1px solid rgb(61, 61, 97);
+    padding-top: 5px;
+    padding-bottom: 0px;
+    width: 60px;
+}
+
+.EchelleValeurs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.valeursEch {
+    font-size: small;
+}
