@@ -33,19 +33,6 @@
     padding-bottom: 0px;
 }
 
-.ScoreDetail:hover {
-    animation-name: move;
-    animation-duration: 4s;
-    color: red;
-}
-
-@keyframes move {
-    0%   {left:0px; top:0px;}
-    25%  {width:200px; top:0px;}
-  }
-
-
-
 .EchelleValeurs {
     display: flex;
     flex-direction: row;
@@ -60,4 +47,8 @@
     text-align: center;
     font-size: 10px;
     bottom: 0;
+}
+
+.textVulg {
+    text-align: center;
 }

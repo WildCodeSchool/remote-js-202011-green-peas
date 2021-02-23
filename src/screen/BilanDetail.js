@@ -41,24 +41,25 @@ class BilanDetail extends React.Component {
                 </h3>
                 {this.props.menu.map(food=><p>{food.name + " " + food.carbone}</p>)}
                 <div className="platNefaste">
-                <img
+                {/* <img
                         className="dish"
                         src={this.state.imgDefault}
                         alt={this.state.imgDefaultAlt}
-                        />
-                      <div>
-                          <h4>
+                        /> */}
+                    <div className="textVulg">
+                          {/* <h4>
                             Empreinte carbone : 2t. CO2
-                          </h4>
+                          </h4> */}
+                          <h3>
+                              Ton menu est très appétissant mais tes {(this.props.score.toFixed(2))}kg de Co2 sont équivalents à : 
+                          </h3>
+                          <img className='imgicon' image src={lamp} alt='lamp.png'/>
                           <p>
-                              Ton menu est très appétissant mais son impact 👎 sur la planete est équivalent à : 
-                          </p>
-                          <p>
-                          <span className='nbjours'>{(this.props.score.toFixed(0))*2}</span>  jours d'éclairage avec 1 ampoule<img className='imgicon' image src={lamp} alt='lamp.png'/>   
-                        </p>
-                        <strong>OU</strong>
-                        <p><span className='nbjours'>{(this.props.score*9).toFixed(0)}</span>  km en SUV <img className='imgicon' src={suvcar} alt='suv-car'/></p>
-                          </div>  
+                          <span className='nbjours'>{(this.props.score.toFixed(0))*2}</span>  jours d'éclairage d'1 ampoule</p>
+                            <h3>OU</h3>
+                            <img className='imgicon' src={suvcar} alt='suv-car'/>
+                            <p><span className='nbjours'>{(this.props.score*9).toFixed(0)}</span>  km en SUV </p>
+                    </div>  
                 </div>
                 {/*
                     entrée moy 3.61 min 046 max 15.91
