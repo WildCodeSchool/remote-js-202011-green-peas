@@ -21,10 +21,12 @@ class BilanDetail extends React.Component {
                     <div className="scoreVulg" style={{width:this.props.score.toFixed(2)*(320/80)}}></div>
                     </div>
                     <div className="EchelleValeurs">
-                    <p className="valeursEch">min 7.95*</p>
-                    <p className="valeursEch">max 87.96*</p>
+                    <p className="valeursEch"> 7.95*</p>
+                    <p className="valeursEch"> 87.96*</p>
                     </div>
+                    <p className="explications">* valeurs minimales et maximales possibles selon les choix effectués pour le menu exprimées en kg de CO2 émis </p>
                 </section>
+                
 
 {/* Section choix du plat avec empreinte néfaste */}
 
