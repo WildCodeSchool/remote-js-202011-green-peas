@@ -27,12 +27,24 @@
     width: 320px;
 }
 
-.Score {
+.ScoreDetail {
     border-left: 1px solid rgb(61, 61, 97);
     padding-top: 5px;
     padding-bottom: 0px;
-    width: 60px;
 }
+
+.ScoreDetail:hover {
+    animation-name: move;
+    animation-duration: 4s;
+    color: red;
+}
+
+@keyframes move {
+    0%   {left:0px; top:0px;}
+    25%  {width:200px; top:0px;}
+  }
+
+
 
 .EchelleValeurs {
     display: flex;

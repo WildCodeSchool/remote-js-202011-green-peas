@@ -16,15 +16,19 @@ class BilanDetail extends React.Component {
             <div className="">
                 <section className="encart">
                     <h1>Détail du bilan de votre menu</h1>
-                    <p className="Score" style={{marginLeft:this.props.score.toFixed(2)*(320/80)}}>{this.props.score.toFixed(2)} kg CO2 </p>
-                    <div className="scoreVulgEchelle">
-                    <div className="scoreVulg" style={{width:this.props.score.toFixed(2)*(320/80)}}></div>
-                    </div>
+{/* Score total affiché sur la barre de score */}
+                    <p className="ScoreDetail" style={{marginLeft:this.props.score.toFixed(2)*(320/80)}}>
+                        {this.props.score.toFixed(2)} kg CO2 
+                    </p>
+{/* barre de score */}
+                    <div className="scoreVulgEchelle"></div>
+{/* container pour mettre en page valeurs minimales et maximales sur barre de score */}
                     <div className="EchelleValeurs">
                     <p className="valeursEch"> 7.95*</p>
                     <p className="valeursEch"> 87.96*</p>
                     </div>
-                    <p className="explications">* valeurs minimales et maximales possibles selon les choix effectués pour le menu exprimées en kg de CO2 émis </p>
+{/* texte explication données min et max */}
+                    <p className="explications">* valeurs minimales et maximales possibles selon les choix effectués pour le menu exprimées en équivalent kg de CO2 émis </p>
                 </section>
                 
 
