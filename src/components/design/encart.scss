@@ -1,0 +1,47 @@
+@mixin encart {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 50px auto;
+  border-radius: 10px;
+  background: $colorBack;
+  padding: 3rem;
+  min-width: 200px;
+  max-width: 414px;
+  box-shadow: 0px 1px 3px grey;
+  &.menu {
+    margin-top: 25px;
+  }
+  &.border-blue {
+    li {
+      border-bottom: 1px solid $colorSecondary;
+    }
+  }
+  .figure {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+  }
+
+  // Liste design
+  ul {
+    color: $colorSecondary;
+    font-family: $typoSecondaire;
+    font-size: $typoM;
+    line-height: 1.3em;
+    li {
+      font-size: $typoS;
+      padding: 0.55rem 0;
+      margin-bottom: 0.45rem;
+      &:last-child {
+        border: 0;
+      }
+    }
+  }
+}
+
+.dataDetail {
+  font-size: $typoM;
+  font-weight: 500;
+}

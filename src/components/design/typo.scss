@@ -1,0 +1,42 @@
+body {
+  font-size: 100%;
+}
+
+h1 {
+  font-family: $typoPrimary;
+  font-size: $typoXXL;
+  color: $colorSecondary;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.8rem;
+  text-align: center;
+}
+
+p,
+h3,
+h2 {
+  color: $colorSecondary;
+  font-family: $typoSecondaire;
+  font-size: $typoM;
+  line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: $typoXL;
+}
+
+h3 {
+  font-size: $typoL;
+}
+
+li a,
+li a:visited {
+  color: $colorPrimary;
+}
+
+li a:visited {
+  text-decoration: none;
+}

@@ -1,0 +1,416 @@
+[
+  {
+    "Nom du Produit en Français": "Agneau rôtie",
+    "Score unique EF (mPt/kg de produit)": "4.87",
+    "Changement climatique (kg CO2 eq/kg de produit)": "50.07",
+    "Catégorie Jeux": "Plat"
+  },
+  {
+    "Nom du Produit en Français": "Artichaut cuit",
+    "Score unique EF (mPt/kg de produit)": "0.71",
+    "Changement climatique (kg CO2 eq/kg de produit)": "3.01",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Avocat cru",
+    "Score unique EF (mPt/kg de produit)": "0.55",
+    "Changement climatique (kg CO2 eq/kg de produit)": "2.75",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Baba au rhum",
+    "Score unique EF (mPt/kg de produit)": "0.12",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.87",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Barre à la noix de coco/choco",
+    "Score unique EF (mPt/kg de produit)": "0.41",
+    "Changement climatique (kg CO2 eq/kg de produit)": "4.73",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Boeuf bourguignon/pot-au-feu",
+    "Score unique EF (mPt/kg de produit)": "3.53",
+    "Changement climatique (kg CO2 eq/kg de produit)": "42.73",
+    "Catégorie Jeux": "Plat"
+  },
+  {
+    "Nom du Produit en Français": "Eau minérale/source aromatisée",
+    "Score unique EF (mPt/kg de produit)": "0.04",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.40",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Boisson au soja sucrée",
+    "Score unique EF (mPt/kg de produit)": "0.06",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.42",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Boisson au thé aromatisée non sucrée",
+    "Score unique EF (mPt/kg de produit)": "0.09",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.61",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Boisson énergisante sucrée",
+    "Score unique EF (mPt/kg de produit)": "0.06",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.51",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Boisson gazeuse aux fruits",
+    "Score unique EF (mPt/kg de produit)": "0.04",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.40",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Boisson plate aux fruits",
+    "Score unique EF (mPt/kg de produit)": "0.08",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.61",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Brochette de poisson",
+    "Score unique EF (mPt/kg de produit)": "2.34",
+    "Changement climatique (kg CO2 eq/kg de produit)": "13.50",
+    "Catégorie Jeux": "Plat"
+  },
+  {
+    "Nom du Produit en Français": "Brownie au chocolat",
+    "Score unique EF (mPt/kg de produit)": "0.82",
+    "Changement climatique (kg CO2 eq/kg de produit)": "8.96",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Bûche glacée",
+    "Score unique EF (mPt/kg de produit)": "0.28",
+    "Changement climatique (kg CO2 eq/kg de produit)": "2.37",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Canard poêlé",
+    "Score unique EF (mPt/kg de produit)": "1.11",
+    "Changement climatique (kg CO2 eq/kg de produit)": "7.31",
+    "Catégorie Jeux": "Plat"
+  },
+  {
+    "Nom du Produit en Français": "Chapon rôti",
+    "Score unique EF (mPt/kg de produit)": "1.13",
+    "Changement climatique (kg CO2 eq/kg de produit)": "7.56",
+    "Catégorie Jeux": "Plat"
+  },
+  {
+    "Nom du Produit en Français": "Charlotte aux fruits",
+    "Score unique EF (mPt/kg de produit)": "0.36",
+    "Changement climatique (kg CO2 eq/kg de produit)": "2.33",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Chili con carne",
+    "Score unique EF (mPt/kg de produit)": "1.90",
+    "Changement climatique (kg CO2 eq/kg de produit)": "22.40",
+    "Catégorie Jeux": "Plat"
+  },
+  {
+    "Nom du Produit en Français": "Chips à l'ancienne",
+    "Score unique EF (mPt/kg de produit)": "0.29",
+    "Changement climatique (kg CO2 eq/kg de produit)": "2.24",
+    "Catégorie Jeux": "Accompagnement"
+  },
+  {
+    "Nom du Produit en Français": "Choco au lait tablette",
+    "Score unique EF (mPt/kg de produit)": "1.28",
+    "Changement climatique (kg CO2 eq/kg de produit)": "17.57",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Choco noir à 70% tablette",
+    "Score unique EF (mPt/kg de produit)": "1.29",
+    "Changement climatique (kg CO2 eq/kg de produit)": "18.58",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Chorizo",
+    "Score unique EF (mPt/kg de produit)": "0.87",
+    "Changement climatique (kg CO2 eq/kg de produit)": "5.46",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Clémentine",
+    "Score unique EF (mPt/kg de produit)": "0.21",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.71",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Concombre cru",
+    "Score unique EF (mPt/kg de produit)": "0.43",
+    "Changement climatique (kg CO2 eq/kg de produit)": "4.86",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Glace café/chocolat liégeois",
+    "Score unique EF (mPt/kg de produit)": "0.28",
+    "Changement climatique (kg CO2 eq/kg de produit)": "2.59",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Dinde, escalope rôtie",
+    "Score unique EF (mPt/kg de produit)": "1.11",
+    "Changement climatique (kg CO2 eq/kg de produit)": "7.31",
+    "Catégorie Jeux": "Plat"
+  },
+  {
+    "Nom du Produit en Français": "Eau de vie",
+    "Score unique EF (mPt/kg de produit)": "0.12",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.15",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Figue crue",
+    "Score unique EF (mPt/kg de produit)": "0.23",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.58",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Gâteau basque crème pâtissière",
+    "Score unique EF (mPt/kg de produit)": "0.32",
+    "Changement climatique (kg CO2 eq/kg de produit)": "3.23",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Gnocchi à la pomme de terre",
+    "Score unique EF (mPt/kg de produit)": "0.12",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.80",
+    "Catégorie Jeux": "Accompagnement"
+  },
+  {
+    "Nom du Produit en Français": "Jambon sec de Parme",
+    "Score unique EF (mPt/kg de produit)": "2.41",
+    "Changement climatique (kg CO2 eq/kg de produit)": "15.91",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Julienne de légumes surgelée",
+    "Score unique EF (mPt/kg de produit)": "0.10",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.65",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Jus multifruit",
+    "Score unique EF (mPt/kg de produit)": "0.15",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.80",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Laitue iceberg",
+    "Score unique EF (mPt/kg de produit)": "0.09",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.86",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Lapin de garenne",
+    "Score unique EF (mPt/kg de produit)": "1.13",
+    "Changement climatique (kg CO2 eq/kg de produit)": "7.58",
+    "Catégorie Jeux": "Plat"
+  },
+  {
+    "Nom du Produit en Français": "Macédoine de légumes",
+    "Score unique EF (mPt/kg de produit)": "0.20",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.12",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Nectar multifruit",
+    "Score unique EF (mPt/kg de produit)": "0.15",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.80",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Nougat glacé",
+    "Score unique EF (mPt/kg de produit)": "0.28",
+    "Changement climatique (kg CO2 eq/kg de produit)": "2.37",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Pastèque crue",
+    "Score unique EF (mPt/kg de produit)": "0.12",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.59",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Patate douce",
+    "Score unique EF (mPt/kg de produit)": "0.12",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.80",
+    "Catégorie Jeux": "Accompagnement"
+  },
+  {
+    "Nom du Produit en Français": "Pâté breton",
+    "Score unique EF (mPt/kg de produit)": "0.77",
+    "Changement climatique (kg CO2 eq/kg de produit)": "4.84",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Pâté en croûte",
+    "Score unique EF (mPt/kg de produit)": "1.67",
+    "Changement climatique (kg CO2 eq/kg de produit)": "13.71",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Pomme de terre rôtie",
+    "Score unique EF (mPt/kg de produit)": "0.14",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.91",
+    "Catégorie Jeux": "Accompagnement"
+  },
+  {
+    "Nom du Produit en Français": "Pomme crue",
+    "Score unique EF (mPt/kg de produit)": "0.06",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.28",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Poulet rôti",
+    "Score unique EF (mPt/kg de produit)": "1.13",
+    "Changement climatique (kg CO2 eq/kg de produit)": "7.58",
+    "Catégorie Jeux": "Plat"
+  },
+  {
+    "Nom du Produit en Français": "Quinoa cuit à l'eau",
+    "Score unique EF (mPt/kg de produit)": "0.15",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.68",
+    "Catégorie Jeux": "Accompagnement"
+  },
+  {
+    "Nom du Produit en Français": "Rillettes de canard",
+    "Score unique EF (mPt/kg de produit)": "0.77",
+    "Changement climatique (kg CO2 eq/kg de produit)": "4.84",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Galette de pomme de terre",
+    "Score unique EF (mPt/kg de produit)": "0.19",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.03",
+    "Catégorie Jeux": "Accompagnement"
+  },
+  {
+    "Nom du Produit en Français": "Saké ou Alcool de riz",
+    "Score unique EF (mPt/kg de produit)": "0.12",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.16",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Salade César au poulet",
+    "Score unique EF (mPt/kg de produit)": "0.37",
+    "Changement climatique (kg CO2 eq/kg de produit)": "2.81",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Salade de chou ou Coleslaw",
+    "Score unique EF (mPt/kg de produit)": "0.17",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.12",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Salade de thon et légumes",
+    "Score unique EF (mPt/kg de produit)": "0.91",
+    "Changement climatique (kg CO2 eq/kg de produit)": "5.15",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Salade verte",
+    "Score unique EF (mPt/kg de produit)": "0.13",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.88",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Saumon rôti",
+    "Score unique EF (mPt/kg de produit)": "1.62",
+    "Changement climatique (kg CO2 eq/kg de produit)": "6.13",
+    "Catégorie Jeux": "Plat"
+  },
+  {
+    "Nom du Produit en Français": "Sirop",
+    "Score unique EF (mPt/kg de produit)": "0.16",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.06",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Smoothie",
+    "Score unique EF (mPt/kg de produit)": "0.11",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.68",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Sorbet",
+    "Score unique EF (mPt/kg de produit)": "0.46",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.03", 
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Soupe à l'oignon",
+    "Score unique EF (mPt/kg de produit)": "0.12",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.85",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Soupe à la tomate",
+    "Score unique EF (mPt/kg de produit)": "0.14",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.46",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Tarte aux fraises",
+    "Score unique EF (mPt/kg de produit)": "0.63",
+    "Changement climatique (kg CO2 eq/kg de produit)": "2.38",
+    "Catégorie Jeux": "Dessert"
+  },
+  {
+    "Nom du Produit en Français": "Tomate de saison",
+    "Score unique EF (mPt/kg de produit)": "0.07",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.51",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Tomate hors saison",
+    "Score unique EF (mPt/kg de produit)": "0.20",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.88",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Tomate",
+    "Score unique EF (mPt/kg de produit)": "0.10",
+    "Changement climatique (kg CO2 eq/kg de produit)": "0.62",
+    "Catégorie Jeux": "Entrée"
+  },
+  {
+    "Nom du Produit en Français": "Whisky",
+    "Score unique EF (mPt/kg de produit)": "0.12",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.16",
+    "Catégorie Jeux": "Boisson"
+  },
+  {
+    "Nom du Produit en Français": "Riz blanc",
+    "Score unique EF (mPt/kg de produit)": "0.31",
+    "Changement climatique (kg CO2 eq/kg de produit)": "2.16",
+    "Catégorie Jeux": "Accompagnement"
+  },
+  {
+    "Nom du Produit en Français": "Pâtes",
+    "Score unique EF (mPt/kg de produit)": "0.31",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.66",
+    "Catégorie Jeux": "Accompagnement"
+  },
+  {
+    "Nom du Produit en Français": "Haricot vert",
+    "Score unique EF (mPt/kg de produit)": "0.22",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.19",
+    "Catégorie Jeux": "Accompagnement"
+  },
+  {
+    "Nom du Produit en Français": "Vermicelle de riz",
+    "Score unique EF (mPt/kg de produit)": "0.18",
+    "Changement climatique (kg CO2 eq/kg de produit)": "1.26",
+    "Catégorie Jeux": "Accompagnement"
+  }  
+]

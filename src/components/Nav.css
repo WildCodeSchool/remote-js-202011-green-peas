@@ -1,0 +1,152 @@
+#menu ul li {
+  font-size: 120%;
+  list-style: none;
+  border-bottom: 1px solid #ffffff75;
+  padding: 1rem 0;
+  margin: 0;
+}
+/* Main menu (slide) */
+#menu {
+  position: fixed;
+  z-index: 5555;
+  right: -25%;
+  top: auto;
+  background: rgb(56 184 88);
+  padding: 4em 2em;
+  width: 25%;
+  min-height: 100%;
+}
+#menu ul li {
+  list-style: none;
+}
+#menu ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 1em;
+  text-align: right;
+}
+
+#menu.visible {
+  animation: 0.5s slideRight ease-in forwards;
+  transition-delay: 0;
+}
+#menu.invisible {
+  animation: 1s slideLeft ease-out forwards;
+  transition-delay: 0;
+}
+/* Animations pour le menu slide */
+@keyframes slideRight {
+  from {
+    right: -25%;
+  }
+  to {
+    right: 0%;
+  }
+}
+@-webkit-keyframes slideRight {
+  from {
+    right: -25%;
+  }
+  to {
+    right: 0%;
+  }
+}
+@keyframes slideLeft {
+  from {
+    right: 0%;
+  }
+  to {
+    right: -25%;
+  }
+}
+@-webkit-keyframes slideLeft {
+  from {
+    right: 0%;
+  }
+  to {
+    right: -25%;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  #menu {
+    right: -50%;
+    width: 50%;
+  }
+
+  /* Animations pour le menu slide */
+  @keyframes slideRight {
+    from {
+      right: -50%;
+    }
+    to {
+      right: 0%;
+    }
+  }
+  @-webkit-keyframes slideRight {
+    from {
+      right: -50%;
+    }
+    to {
+      right: 0%;
+    }
+  }
+  @keyframes slideLeft {
+    from {
+      right: 0%;
+    }
+    to {
+      right: -50%;
+    }
+  }
+  @-webkit-keyframes slideLeft {
+    from {
+      right: 0%;
+    }
+    to {
+      right: -50%;
+    }
+  }
+}
+@media (max-width: 600px) {
+  #menu {
+    right: -100%;
+    width: 100%;
+  }
+  /* Animations pour le menu slide */
+  @keyframes slideRight {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 0%;
+    }
+  }
+  @-webkit-keyframes slideRight {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 0%;
+    }
+  }
+  @keyframes slideLeft {
+    from {
+      right: 0%;
+    }
+    to {
+      right: -100%;
+    }
+  }
+  @-webkit-keyframes slideLeft {
+    from {
+      right: 0%;
+    }
+    to {
+      right: -100%;
+    }
+  }
+}

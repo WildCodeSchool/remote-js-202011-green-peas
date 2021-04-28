@@ -1,0 +1,43 @@
+@import "./design/ui.scss";
+
+.padBot-025rem {
+  padding-bottom: 0.25rem;
+}
+
+.no-margin-vertical {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bouton {
+  @include boutonSite;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#encartJeux {
+  @include encart; // texte ul and li inside encart jeux
+
+  ul {
+    color: $colorSecondary;
+    font-family: $typoSecondaire;
+    font-size: $typoM;
+    line-height: 1.3em;
+
+    li {
+      font-size: $typoS;
+      padding: 0.55rem 0;
+      margin-bottom: 0.45rem;
+      border-bottom: 1px solid $colorSecondary;
+
+      &:last-child {
+        border: 0;
+      }
+    }
+  }
+}

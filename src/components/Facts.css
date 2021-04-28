@@ -1,0 +1,22 @@
+.citation {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  background: #fffffffc;
+  width: 84vw;
+  align-content: space-around;
+  border-radius: 20px;
+  padding: 25px;
+  max-width: 500px;
+  min-width: 350px;
+}
+.fact {
+  margin-top: 0px;
+  font-size: 1.5rem;
+}
+
+.fact-logo {
+  height: 240px;
+  align-self: center;
+  margin-bottom: 20px;
+}

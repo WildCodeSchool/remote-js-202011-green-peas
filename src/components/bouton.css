@@ -1,0 +1,19 @@
+/* Bouton du site  */
+.bouton {
+  font-weight: 400;
+  font-size: 1.3em;
+  padding: 1rem 2rem;
+  margin-bottom: 3rem;
+  text-decoration: none;
+  background-color: #38b858;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  font-family: "Robot", sans-serif;
+}
+
+.bouton:active {
+  background-color: #112c64;
+  color: white;
+}

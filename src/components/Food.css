@@ -1,0 +1,56 @@
+.food {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.food ul {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#page-numbers {
+  list-style: none;
+  display: flex;
+}
+
+#page-numbers > li {
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.block {
+  width: 100%;
+  display: block;
+}
+.current {
+  text-decoration: underline;
+  background-color: lightgreen;
+}
+.hidden {
+  display: none;
+}
+.food li {
+  border: 1px solid #aeaeae;
+  border-radius: 2px;
+  padding: 7px;
+  margin: 0.2rem;
+}
+.button {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 0.8em;
+  height: 50px;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(243, 243, 243);
+  border: 1px solid;
+  border-radius: 0px 5px 5px 0px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
